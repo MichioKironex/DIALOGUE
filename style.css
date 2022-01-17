@@ -1,0 +1,28 @@
+.title span:nth-child(1){
+    color: pink;
+}
+.title span:nth-child(2){
+    color: rgb(223, 223, 12);
+}
+.title span:nth-child(3){
+    color: green;
+}
+.title span:nth-child(4){
+    color: blue;
+}
+.title span:nth-child(5){
+    color: orange;
+}
+.title span:nth-child(6){
+    color: rgb(255, 0, 157);
+}
+.title span:nth-child(7){
+    color: rgb(127, 206, 233);
+}
+.title span:nth-child(8){
+    color: purple;
+}
+.comment{
+    width: 80%;
+    height: 90px;
+}
