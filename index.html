@@ -2,30 +2,79 @@
 <html lang="ja">
 <head>
     <meta charset="UTF-8">
-    <title>DIALOGUEについて語るサイト</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>リコーダーサイト</title>
+    <script type="text/javascript" src="abcjs-main/dist/abcjs-basic-min.js" ></script>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1 class="title">
-        <span>DI</span>
-        <span>AL</span>
-        <span>OG</span>
-        <span>UE</span>
-        <span>につ</span>
-        <span>いて</span>
-        <span>語る</span>
-        <span>会</span>
-    </h1>
-    <p>自由にコメントしていってください!!</p>
-    <ul>
-        <li>
-            <label>＜コメント＞<br>
-            <textarea class="comment" name="form" placeholder="コメントを入力してください" required>
-            </textarea></label>
-        </li>
-    </ul>
-    <input type="submit" value="送信">
-    <div></div>
+    <header>
+        <div class="icon">recorder</div>
+        <!-- <div class="hbackground"></div> -->
+        
+    </header>
+    <nav>
+        <ul>
+            <li>text</li>
+            <li>text</li>
+            <li>text</li>
+            <li>text</li>
+            <li>text</li>
+            <li>text</li>
+        </ul>
+    </nav>
+    <div class="background">
+        <h1>浜辺の歌</h1>
+        <img class="recorder" src="pictures/hiC.png">
+        <img class="recorder" src="pictures/hiC.png">
+        <img class="recorder" src="pictures/hiF.png">
+        <img class="recorder" src="pictures/hiG.png">
+        <img class="recorder" src="pictures/hihiA.png">
+        <img class="recorder" src="pictures/hiG.png">
+        <img class="recorder" src="pictures/hiF.png">
+        <img class="recorder" src="pictures/hiG.png">
+        <img class="recorder" src="pictures/hiD.png">
+        <img class="recorder" src="pictures/hiF.png">
+        <img class="recorder" src="pictures/hiE.png">
+        <img class="recorder" src="pictures/hiD.png">
+        <img class="recorder" src="pictures/hiC.png">
+        <img class="recorder" src="pictures/hiF.png">
+        <img class="recorder" src="pictures/hihiA.png">
+        <img class="recorder" src="pictures/hiG.png">
+        <img class="recorder" src="pictures/hiF.png">
+        <img class="recorder" src="pictures/hiG.png">
+        <img class="recorder" src="pictures/hiC.png">
+        <div class="score">
+        <div class="novel">
+            M:6/8
+            L:1/8
+            K:C
+            "あ"[C] |\n"し"[C2]"た"[F1/2]"ー"[G1/2]"は"[a,2]"ま"[G1/2] "ー"[F1/2] |"べ"[G2]"ー"[D]"を"[F2]"さ"[E1/2]"ー"[D1/2] | "ま"[C2]"ー"[F]"よ"[a,2]"え"[G1/2]"ー"[F1/2] | "ば"[G4][z]"む"[C] | 
+        </div>
+        <div class="novel">
+            K:C
+            "か"[C2]"し"[F1/2]"ー"[G1/2]"の"[a,2]"こ"[G1/2]"ー"[F1/2]|"と"[G2]"ー"[D]"ぞ"[F2]"し"[E1/2]"ー"[D1/2]|"の"[C2]"ー"[a,]"ば"[C2]"る"[G]|"る"[F4][z]"か"[c]|
+        </div>
+        <div class="novel">
+            K:C
+            "ぜ"[c2]"の"[G]"お"[c2]"ー"[^G] | "と"[c3]"よ"[a,2]"く"[d1] | "も"[d2]"の"[b]"さ"[F2]"ま"[G] | "よ"[c4][z]"よ"[C] |
+        </div>
+        <div class="novel">
+            K:C
+            "す"[C2]"る"[F1/2]"ー"[G1/2]"な"[a,2]"ー"[G1/2]"ー"[F1/2] | "み"[G2]"ー"[D]"も"[F2]"か"[E1/2]"ー"[D1/2] | "い"[C2]"の"[a,]"い"[C2]"ろ"[G] | "も"[F4][z] ||
+        </div>
+        </div>
+    <script>
+        var scoreObj = document.getElementsByClassName("novel");
+        for( var i in scoreObj ){
+            ABCJS.renderAbc( scoreObj[i], scoreObj[i].innerHTML );
+        }
+        var scoreObj = document.getElementsByClassName("novel2");
+        for( var i in scoreObj ){
+            ABCJS.renderAbc( scoreObj[i], scoreObj[i].innerHTML );
+        }
+    </script>
+    </div>
 </body>
 </html>
-
