@@ -1,16 +1,19 @@
 *{
     margin: 0;
-    /* padding: 0; */
+    padding: 0;
 }
 .background{
     position: relative;
     top: 0;
     width: 100%;
-    height: 3000px;
+    height: 100%;
     background-color: antiquewhite;
     background-size: cover;
+    padding:0 0 100px 0 ;
 }
 h1{
+    font-size: 50px;
+    font-family: "Yuji Mai", serif;
     text-align: center;
     padding: 30px;
 }
@@ -25,11 +28,11 @@ h1{
 }*/
 .icon{
     position: fixed;
-    top: 0;
-    left: 0;
+    top: 5px;
+    left: 5px;
     width: 130px;
     height: 60px;
-    background-color: wheat;
+    background-color: rgba(245, 222, 179, 0.8);
     margin: 0;
     padding: 0;
     font-size: 30px;
@@ -42,139 +45,253 @@ nav li{
     display: inline-block;
     text-align: center;
     border-left: 1px solid black;
-    width: 130px;
+    width: 160px;
     margin-bottom: 15px;
 }
 nav li:nth-of-type(6){
     border-right: 1px solid black;
 }
 nav ul{
+    font-size: 30px;
     list-style-type: none;
     text-align: center;
-    margin-top: 80px;
+    margin-top: 80px ;
 }
 .novel{
-    width: 1680px;
+    width: 1133;
+    transform: scale(2.1,1.5) translateX(263px);
     margin: 0 0 60px 0;
     padding: 0;
-    transform: scale(2.1,1.5) translateX(430px);
-    /* position: absolute; */
-    /* transform: translateX(840px); */
 }
-/* .recorder1{
-    position: relative;
+.novel1{
+    display: none;
+}
+.recorder:nth-of-type(1){
+    
+}
+.recorder1{
+    display: none;
+}
+
+@media screen and (max-width: 2200px){
+    .novel{
+        display: none;
+    }
+    .novel1{
+        width: 755px;
+        transform: scale(2.1,1.5) translateX(185px);
+        margin: 0 0 60px 0;
+        padding: 0;
+        /* position: absolute; */
+        /* transform: translateX(840px); */
+    }
+    /* .recorder1{
+        position: relative;
+    } */
+    /* first stage  */
+    .recorder{
+        display: none;
+    }
+    .recorder1:nth-of-type(1){
+        transform: translateX(110px);
+    }
+    .recorder1:nth-of-type(2){
+        transform: translateX(130px);
+    }
+    .recorder1:nth-of-type(3){
+        transform: translateX(140px);
+    }
+    .recorder1:nth-of-type(4){
+        transform: translateX(110px);
+    }
+    .recorder1:nth-of-type(5){
+        transform: translateX(80px);
+    }
+    .recorder1:nth-of-type(6){
+        transform: translateX(80px);
+    }
+    .recorder1:nth-of-type(7){
+        transform: translateX(55px);
+    }
+    .recorder1:nth-of-type(8){
+        transform: translateX(70px);
+    }
+    .recorder1:nth-of-type(9){
+        transform: translateX(70px);
+    }
+    .recorder1:nth-of-type(10){
+        transform: translateX(55px);
+    }
+    .recorder1:nth-of-type(11){
+        transform: translateX(50px);
+    }
+    .recorder1:nth-of-type(12){
+        transform: translateX(30px);
+    }
+    .recorder1:nth-of-type(13){
+        transform: translateX(30px);
+    }
+    .recorder1:nth-of-type(14){
+        transform: translateX(35px);
+    }
+    .recorder1:nth-of-type(15){
+        transform: translateX(15px);
+    }
+    .recorder1:nth-of-type(16){
+        transform: translateX(15px);
+    }
+    .recorder1:nth-of-type(17){
+        transform: translateX(-15px);
+    }
+    .recorder1:nth-of-type(18){
+        transform: translateX(-10px);
+    }
+    .recorder1:nth-of-type(19){
+        transform: translateX(120px);
+    }
+    /* second stage  */
+
+    .recorder1:nth-of-type(20){
+        transform: translateX(75px);
+    }
+    .recorder1:nth-of-type(21){
+        transform: translateX(90px);
+    }
+    .recorder1:nth-of-type(22){
+        transform: translateX(65px);
+    }
+    .recorder1:nth-of-type(23){
+        transform: translateX(35px);
+    }
+    .recorder1:nth-of-type(24){
+        transform: translateX(50px);
+    }
+    .recorder1:nth-of-type(25){
+        transform: translateX(20px);
+    }
+    .recorder1:nth-of-type(26){
+        transform: translateX(35px);
+    }
+    .recorder1:nth-of-type(27){
+        transform: translateX(50px);
+    }
+    .recorder1:nth-of-type(28){
+        transform: translateX(40px);
+    }
+    .recorder1:nth-of-type(29){
+        transform: translateX(60px);
+    }
+    .recorder1:nth-of-type(30){
+        transform: translateX(35px);
+    }
+    .recorder1:nth-of-type(31){
+        transform: translateX(40px);
+    }
+    .recorder1:nth-of-type(32){
+        transform: translateX(60px);
+    }
+    .recorder1:nth-of-type(33){
+        transform: translateX(50px);
+    }
+    .recorder1:nth-of-type(34){
+        transform: translateX(70px);
+    }
+    .recorder1:nth-of-type(35){
+        transform: translateX(100px);
+    }
+    .recorder1:nth-of-type(36){
+        transform: translateX(260px);
+    }
+
+    /* third stage */
+    .recorder1:nth-of-type(37){
+        transform: translateX(70px);
+    }
+    .recorder1:nth-of-type(38){
+        transform: translateX(100px);
+    }
+    .recorder1:nth-of-type(39){
+        transform: translateX(90px);
+    }
+    .recorder1:nth-of-type(40){
+        transform: translateX(120px);
+    }
+    .recorder1:nth-of-type(41){
+        transform: translateX(160px);
+    }
+    .recorder1:nth-of-type(42){
+        transform: translateX(210px);
+    }
+    .recorder1:nth-of-type(43){
+        transform: translateX(230px);
+    }
+    .recorder1:nth-of-type(44){
+        transform: translateX(270px);
+    }
+    .recorder1:nth-of-type(45){
+        transform: translateX(300px);
+    }
+    .recorder1:nth-of-type(46){
+        transform: translateX(300px);
+    }
+    .recorder1:nth-of-type(47){
+        transform: translateX(325px);
+    }
+    .recorder1:nth-of-type(48){
+        transform: translateX(365px);
+    }
+    .recorder1:nth-of-type(49){
+        transform: translateX(550px);
+    }
+
+    /* fourth stage */
+
+    .recorder1:nth-of-type(50){
+        transform: translateX(70px);
+    }
+    .recorder1:nth-of-type(51){
+        transform: translateX(90px);
+    }
+    .recorder1:nth-of-type(52){
+        transform: translateX(65px);
+    }
+    .recorder1:nth-of-type(53){
+        transform: translateX(40px);
+    }
+    .recorder1:nth-of-type(54){
+        transform: translateX(60px);
+    }
+    .recorder1:nth-of-type(55){
+        transform: translateX(35px);
+    }
+    .recorder1:nth-of-type(56){
+        transform: translateX(50px);
+    }
+    .recorder1:nth-of-type(57){
+        transform: translateX(70px);
+    }
+    .recorder1:nth-of-type(58){
+        transform: translateX(65px);
+    }
+    .recorder1:nth-of-type(59){
+        transform: translateX(85px);
+    }
+    .recorder1:nth-of-type(60){
+        transform: translateX(60px);
+    }
+    .recorder1:nth-of-type(61){
+        transform: translateX(75px);
+    }
+    .recorder1:nth-of-type(62){
+        transform: translateX(95px);
+    }
+    .recorder1:nth-of-type(63){
+        transform: translateX(90px);
+    }
+    .recorder1:nth-of-type(64){
+        transform: translateX(110px);
+    }
+    .recorder1:nth-of-type(65){
+        transform: translateX(140px);
+    }
 } */
-/* first stage  */
-.recorder1:nth-of-type(1){
-    transform: translateX(110px);
-}
-.recorder1:nth-of-type(2){
-    transform: translateX(130px);
-}
-.recorder1:nth-of-type(3){
-    transform: translateX(140px);
-}
-.recorder1:nth-of-type(4){
-    transform: translateX(110px);
-}
-.recorder1:nth-of-type(5){
-    transform: translateX(80px);
-}
-.recorder1:nth-of-type(6){
-    transform: translateX(80px);
-}
-.recorder1:nth-of-type(7){
-    transform: translateX(55px);
-}
-.recorder1:nth-of-type(8){
-    transform: translateX(70px);
-}
-.recorder1:nth-of-type(9){
-    transform: translateX(70px);
-}
-.recorder1:nth-of-type(10){
-    transform: translateX(55px);
-}
-.recorder1:nth-of-type(11){
-    transform: translateX(50px);
-}
-.recorder1:nth-of-type(12){
-    transform: translateX(30px);
-}
-.recorder1:nth-of-type(13){
-    transform: translateX(30px);
-}
-.recorder1:nth-of-type(14){
-    transform: translateX(35px);
-}
-.recorder1:nth-of-type(15){
-    transform: translateX(15px);
-}
-.recorder1:nth-of-type(16){
-    transform: translateX(15px);
-}
-.recorder1:nth-of-type(17){
-    transform: translateX(-15px);
-}
-.recorder1:nth-of-type(18){
-    transform: translateX(-10px);
-}
-.recorder1:nth-of-type(19){
-    transform: translateX(120px);
-}
-/* second stage  */
-
-.recorder1:nth-of-type(20){
-    transform: translateX(75px);
-}
-.recorder1:nth-of-type(21){
-    transform: translateX(90px);
-}
-.recorder1:nth-of-type(22){
-    transform: translateX(65px);
-}
-.recorder1:nth-of-type(23){
-    transform: translateX(35px);
-}
-.recorder1:nth-of-type(24){
-    transform: translateX(50px);
-}
-.recorder1:nth-of-type(25){
-    transform: translateX(20px);
-}
-.recorder1:nth-of-type(26){
-    transform: translateX(35px);
-}
-.recorder1:nth-of-type(27){
-    transform: translateX(50px);
-}
-.recorder1:nth-of-type(28){
-    transform: translateX(40px);
-}
-.recorder1:nth-of-type(29){
-    transform: translateX(60px);
-}
-.recorder1:nth-of-type(30){
-    transform: translateX(35px);
-}
-.recorder1:nth-of-type(31){
-    transform: translateX(40px);
-}
-.recorder1:nth-of-type(32){
-    transform: translateX(60px);
-}
-.recorder1:nth-of-type(33){
-    transform: translateX(50px);
-}
-.recorder1:nth-of-type(34){
-    transform: translateX(70px);
-}
-.recorder1:nth-of-type(35){
-    transform: translateX(100px);
-}
-.recorder1:nth-of-type(36){
-    transform: translateX(260px);
-}
-.score{
-
-}
