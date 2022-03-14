@@ -17,15 +17,6 @@ h1{
     text-align: center;
     padding: 30px;
 }
-/* .hbackground{  
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 150px;
-    background-color: #fff;
-    z-index: -1;
-}*/
 .icon{
     position: fixed;
     top: 5px;
@@ -58,22 +49,112 @@ nav ul{
     margin-top: 80px ;
 }
 .novel{
-    width: 1133;
-    transform: scale(2.1,1.5) translateX(263px);
+    width: 1133px;
+    transform: scale(2.1,1.5) translateX(290px);
     margin: 0 0 60px 0;
     padding: 0;
 }
 .novel1{
     display: none;
 }
-.recorder:nth-of-type(1){
-    
+.recorder_1:nth-of-type(1){
+    transform: translateX(120px);
 }
-.recorder1{
+.recorder_1:nth-of-type(2){
+    transform: translateX(140px);
+}
+.recorder_1:nth-of-type(3){
+    transform: translateX(130px);
+}
+.recorder_1:nth-of-type(4){
+    transform: translateX(100px);
+}
+.recorder_1:nth-of-type(5){
+    transform: translateX(100px);
+}
+.recorder_1:nth-of-type(6){
+    transform: translateX(px);
+}
+.recorder_1:nth-of-type(7){
+    transform: translateX(px);
+}
+.recorder_1:nth-of-type(8){
+    transform: translateX(px);
+}
+.recorder_1:nth-of-type(9){
+    transform: translateX(px);
+}
+.recorder_1:nth-of-type(10){
+    transform: translateX(px);
+}
+.recorder_1:nth-of-type(11){
+    transform: translateX(px);
+}
+.recorder_1:nth-of-type(12){
+    transform: translateX(px);
+}
+.recorder_1:nth-of-type(13){
+    transform: translateX(px);
+}
+.recorder_1:nth-of-type(14){
+    transform: translateX(px);
+}
+.recorder_1:nth-of-type(15){
+    transform: translateX(px);
+}
+.recorder_1:nth-of-type(16){
+    transform: translateX(px);
+}
+.recorder_1:nth-of-type(17){
+    transform: translateX(px);
+}
+.recorder_1:nth-of-type(18){
+    transform: translateX(px);
+}
+.recorder_1:nth-of-type(19){
+    transform: translateX(px);
+}
+.recorder_1:nth-of-type(20){
+    transform: translateX(px);
+}
+.recorder_1:nth-of-type(21){
+    transform: translateX(px);
+}
+.recorder_1:nth-of-type(22){
+    transform: translateX(px);
+}
+.recorder_1:nth-of-type(23){
+    transform: translateX(px);
+}
+.recorder_1:nth-of-type(24){
+    transform: translateX(px);
+}
+.recorder_1:nth-of-type(25){
+    transform: translateX(px);
+}
+.recorder_1:nth-of-type(26){
+    transform: translateX(-500px);
+}
+.recorder_1:nth-of-type(27){
+    transform: translateX(-500px);
+}
+.recorder_1:nth-of-type(28){
+    transform: translateX(-500px);
+}
+.recorder_1:nth-of-type(29){
+    transform: translateX(-500px);
+}
+.recorder_1:nth-of-type(30){
+    transform: translateX(-500px);
+}
+.recorder1_1,.recorder1_2,.recorder1_3,.recorder1_4{
     display: none;
 }
 
-@media screen and (max-width: 2200px){
+@media screen and (max-width: 1900px){
+    .max2200{
+        position: relative;
+    }
     .novel{
         display: none;
     }
@@ -93,209 +174,209 @@ nav ul{
     .recorder{
         display: none;
     }
-    .recorder1{
-        display: inline;
+    .recorder1_1,.recorder1_2,.recorder1_3,.recorder1_4{
+        display: initial;
     }
-    .recorder1:nth-of-type(1){
+    .recorder1_1:nth-of-type(1){
         transform: translateX(110px);
     }
-    .recorder1:nth-of-type(2){
+    .recorder1_1:nth-of-type(2){
         transform: translateX(130px);
     }
-    .recorder1:nth-of-type(3){
-        transform: translateX(140px);
+    .recorder1_1:nth-of-type(3){
+        transform: translateX(130px);
     }
-    .recorder1:nth-of-type(4){
-        transform: translateX(110px);
+    .recorder1_1:nth-of-type(4){
+        transform: translateX(100px);
     }
-    .recorder1:nth-of-type(5){
-        transform: translateX(80px);
-    }
-    .recorder1:nth-of-type(6){
-        transform: translateX(80px);
-    }
-    .recorder1:nth-of-type(7){
-        transform: translateX(55px);
-    }
-    .recorder1:nth-of-type(8){
+    .recorder1_1:nth-of-type(5){
         transform: translateX(70px);
     }
-    .recorder1:nth-of-type(9){
+    .recorder1_1:nth-of-type(6){
         transform: translateX(70px);
     }
-    .recorder1:nth-of-type(10){
-        transform: translateX(55px);
+    .recorder1_1:nth-of-type(7){
+        transform: translateX(45px);
     }
-    .recorder1:nth-of-type(11){
-        transform: translateX(50px);
+    .recorder1_1:nth-of-type(8){
+        transform: translateX(60px);
     }
-    .recorder1:nth-of-type(12){
-        transform: translateX(30px);
+    .recorder1_1:nth-of-type(9){
+        transform: translateX(60px);
     }
-    .recorder1:nth-of-type(13){
-        transform: translateX(30px);
+    .recorder1_1:nth-of-type(10){
+        transform: translateX(45px);
     }
-    .recorder1:nth-of-type(14){
-        transform: translateX(35px);
+    .recorder1_1:nth-of-type(11){
+        transform: translateX(40px);
     }
-    .recorder1:nth-of-type(15){
+    .recorder1_1:nth-of-type(12){
+        transform: translateX(20px);
+    }
+    .recorder1_1:nth-of-type(13){
         transform: translateX(15px);
     }
-    .recorder1:nth-of-type(16){
-        transform: translateX(15px);
+    .recorder1_1:nth-of-type(14){
+        transform: translateX(20px);
     }
-    .recorder1:nth-of-type(17){
-        transform: translateX(-15px);
+    .recorder1_1:nth-of-type(15){
+        transform: translateX(5px);
     }
-    .recorder1:nth-of-type(18){
-        transform: translateX(-10px);
+    .recorder1_1:nth-of-type(16){
+        transform: translateX(0px);
     }
-    .recorder1:nth-of-type(19){
-        transform: translateX(120px);
+    .recorder1_1:nth-of-type(17){
+        transform: translateX(-25px);
+    }
+    .recorder1_1:nth-of-type(18){
+        transform: translateX(-25px);
+    }
+    .recorder1_1:nth-of-type(19){
+        transform: translateX(105px);
     }
     /* second stage  */
 
-    .recorder1:nth-of-type(20){
-        transform: translateX(75px);
-    }
-    .recorder1:nth-of-type(21){
-        transform: translateX(90px);
-    }
-    .recorder1:nth-of-type(22){
+    .recorder1_2:nth-of-type(1){
         transform: translateX(65px);
     }
-    .recorder1:nth-of-type(23){
-        transform: translateX(35px);
+    .recorder1_2:nth-of-type(2){
+        transform: translateX(80px);
     }
-    .recorder1:nth-of-type(24){
-        transform: translateX(50px);
+    .recorder1_2:nth-of-type(3){
+        transform: translateX(55px);
     }
-    .recorder1:nth-of-type(25){
-        transform: translateX(20px);
+    .recorder1_2:nth-of-type(4){
+        transform: translateX(25px);
     }
-    .recorder1:nth-of-type(26){
-        transform: translateX(35px);
-    }
-    .recorder1:nth-of-type(27){
-        transform: translateX(50px);
-    }
-    .recorder1:nth-of-type(28){
+    .recorder1_2:nth-of-type(5){
         transform: translateX(40px);
     }
-    .recorder1:nth-of-type(29){
-        transform: translateX(60px);
+    .recorder1_2:nth-of-type(6){
+        transform: translateX(10px);
     }
-    .recorder1:nth-of-type(30){
-        transform: translateX(35px);
+    .recorder1_2:nth-of-type(7){
+        transform: translateX(25px);
     }
-    .recorder1:nth-of-type(31){
+    .recorder1_2:nth-of-type(8){
         transform: translateX(40px);
     }
-    .recorder1:nth-of-type(32){
-        transform: translateX(60px);
+    .recorder1_2:nth-of-type(9){
+        transform: translateX(30px);
     }
-    .recorder1:nth-of-type(33){
+    .recorder1_2:nth-of-type(10){
         transform: translateX(50px);
     }
-    .recorder1:nth-of-type(34){
-        transform: translateX(70px);
+    .recorder1_2:nth-of-type(11){
+        transform: translateX(25px);
     }
-    .recorder1:nth-of-type(35){
-        transform: translateX(100px);
+    .recorder1_2:nth-of-type(12){
+        transform: translateX(30px);
     }
-    .recorder1:nth-of-type(36){
-        transform: translateX(260px);
+    .recorder1_2:nth-of-type(13){
+        transform: translateX(50px);
+    }
+    .recorder1_2:nth-of-type(14){
+        transform: translateX(40px);
+    }
+    .recorder1_2:nth-of-type(15){
+        transform: translateX(55px);
+    }
+    .recorder1_2:nth-of-type(16){
+        transform: translateX(85px);
+    }
+    .recorder1_2:nth-of-type(17){
+        transform: translateX(245px);
     }
 
     /* third stage */
-    .recorder1:nth-of-type(37){
+    .recorder1_3:nth-of-type(1){
         transform: translateX(70px);
     }
-    .recorder1:nth-of-type(38){
+    .recorder1_3:nth-of-type(2){
         transform: translateX(100px);
     }
-    .recorder1:nth-of-type(39){
+    .recorder1_3:nth-of-type(3){
         transform: translateX(90px);
     }
-    .recorder1:nth-of-type(40){
+    .recorder1_3:nth-of-type(4){
         transform: translateX(120px);
     }
-    .recorder1:nth-of-type(41){
+    .recorder1_3:nth-of-type(5){
         transform: translateX(160px);
     }
-    .recorder1:nth-of-type(42){
+    .recorder1_3:nth-of-type(6){
         transform: translateX(210px);
     }
-    .recorder1:nth-of-type(43){
+    .recorder1_3:nth-of-type(7){
         transform: translateX(230px);
     }
-    .recorder1:nth-of-type(44){
+    .recorder1_3:nth-of-type(8){
         transform: translateX(270px);
     }
-    .recorder1:nth-of-type(45){
+    .recorder1_3:nth-of-type(9){
         transform: translateX(300px);
     }
-    .recorder1:nth-of-type(46){
+    .recorder1_3:nth-of-type(10){
         transform: translateX(300px);
     }
-    .recorder1:nth-of-type(47){
+    .recorder1_3:nth-of-type(11){
         transform: translateX(325px);
     }
-    .recorder1:nth-of-type(48){
+    .recorder1_3:nth-of-type(12){
         transform: translateX(365px);
     }
-    .recorder1:nth-of-type(49){
+    .recorder1_3:nth-of-type(13){
         transform: translateX(550px);
     }
 
     /* fourth stage */
 
-    .recorder1:nth-of-type(50){
+    .recorder1_4:nth-of-type(1){
         transform: translateX(70px);
     }
-    .recorder1:nth-of-type(51){
+    .recorder1_4:nth-of-type(2){
         transform: translateX(90px);
     }
-    .recorder1:nth-of-type(52){
+    .recorder1_4:nth-of-type(3){
         transform: translateX(65px);
     }
-    .recorder1:nth-of-type(53){
+    .recorder1_4:nth-of-type(4){
         transform: translateX(40px);
     }
-    .recorder1:nth-of-type(54){
+    .recorder1_4:nth-of-type(5){
         transform: translateX(60px);
     }
-    .recorder1:nth-of-type(55){
+    .recorder1_4:nth-of-type(6){
         transform: translateX(35px);
     }
-    .recorder1:nth-of-type(56){
+    .recorder1_4:nth-of-type(7){
         transform: translateX(50px);
     }
-    .recorder1:nth-of-type(57){
+    .recorder1_4:nth-of-type(8){
         transform: translateX(70px);
     }
-    .recorder1:nth-of-type(58){
+    .recorder1_4:nth-of-type(9){
         transform: translateX(65px);
     }
-    .recorder1:nth-of-type(59){
+    .recorder1_4:nth-of-type(10){
         transform: translateX(85px);
     }
-    .recorder1:nth-of-type(60){
+    .recorder1_4:nth-of-type(11){
         transform: translateX(60px);
     }
-    .recorder1:nth-of-type(61){
+    .recorder1_4:nth-of-type(12){
         transform: translateX(75px);
     }
-    .recorder1:nth-of-type(62){
+    .recorder1_4:nth-of-type(13){
         transform: translateX(95px);
     }
-    .recorder1:nth-of-type(63){
+    .recorder1_4:nth-of-type(14){
         transform: translateX(90px);
     }
-    .recorder1:nth-of-type(64){
+    .recorder1_4:nth-of-type(15){
         transform: translateX(110px);
     }
-    .recorder1:nth-of-type(65){
+    .recorder1_4:nth-of-type(16){
         transform: translateX(140px);
     }
-} */
+}
